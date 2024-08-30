@@ -53,14 +53,18 @@
 // document.write("enter the correct opr and value");
 
 //----------->>>Switch Case Program<----------------
-let name =prompt("enter the name");
-switch(name){
-    case "raj":
-    document.write("welcome raj")
-    break;
-    case "Ram":
-    document.write("welcome Ram")
-    break;
-    deafult:
-    document.write("invalid username")
-}
+// let name =prompt("enter the name");
+// switch(name){
+//     case "raj":
+//     document.write("welcome raj")
+//     break;
+//     case "Ram":
+//     document.write("welcome Ram")
+//     break;
+//     deafult:
+//     document.write("invalid username")
+// }
+
+var Abc=[1,"hello",[2,3]];
+console.log(Abc)
+console.log(Abc.length)
